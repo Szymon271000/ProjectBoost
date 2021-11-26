@@ -39,10 +39,13 @@ public class Movement : MonoBehaviour
         {
             ApplyRotation(-rotateThrust);
         }
+
     }
 
     public void ApplyRotation(float rotationThisFrame)
     {
+        rocketbody.freezeRotation = true; // freezing rotation se we can manually rotate
         transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
+        rocketbody.freezeRotation = false; // unfreezing rotation to the physics system can take over
     }
 }

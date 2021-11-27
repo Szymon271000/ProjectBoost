@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FlyOver.unity
+    path: Assets/Scenes/Template.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Under.unity
-    guid: 432cded879412604faba657cf9af3666
+    path: Assets/Scenes/FlyOver 1.unity
+    guid: 8b6bea6cb80e8a64e8392c10c0843b79
+  - enabled: 1
+    path: Assets/Scenes/FlyOver 2.unity
+    guid: 01bf8b8ab03eee1409b4ae5152c6b53d
+  - enabled: 1
+    path: Assets/Scenes/FlyOver 3.unity
+    guid: 4a64d6569bd595d47877c8c84dc8357f
+  - enabled: 1
+    path: Assets/Scenes/FlyOver 4.unity
+    guid: a74e850d7c9813b49bf2adda3e5fff33
   m_configObjects: {}

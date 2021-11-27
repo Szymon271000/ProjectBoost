@@ -640,3 +640,15 @@ MonoBehaviour:
   delay: 1
   crashSound: {fileID: 8300000, guid: bc4313c863e768247ac07362b3ff1693, type: 3}
   succecedSound: {fileID: 8300000, guid: bfbf27b3e6db028409eb7194febeb5d3, type: 3}
+  successParticles: {fileID: 8247480468930791618}
+  crashParticles: {fileID: 8247480468930791617}
+--- !u!198 &8247480468930791617 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6699119942397220674, guid: 88ec61539014afd45aa7f4962174b1ec, type: 3}
+  m_PrefabInstance: {fileID: 8247480468930791614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8247480468930791618 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7863816977824566320, guid: 88ec61539014afd45aa7f4962174b1ec, type: 3}
+  m_PrefabInstance: {fileID: 8247480468930791614}
+  m_PrefabAsset: {fileID: 0}
